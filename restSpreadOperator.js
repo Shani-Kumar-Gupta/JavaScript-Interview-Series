@@ -35,6 +35,10 @@ function getMyFullName(...fullName) {
 
 let myName = getMyFullName('Shani', 'Kumar', 'Gupta');
 console.log("My Full Name: ", myName);
+
+let sampleName = ['Shani', "Priyanshu", "Keshavi", "Shubham"];
+let [name1, name2, ...restName] = sampleName;
+console.log(name1, name2, restName);
 // With Object
 
 let studentData = {
