@@ -24,6 +24,17 @@ function add(...args) {
 addNumber(2, 3, 4, 5, 7, 8);
 let sum = add(2, 3, 4, 5, 7, 8);
 console.log("Final Result : ", sum);
+
+function getMyFullName(...fullName) {
+  let myFullName = '';
+  for (let i = 0; i < fullName.length; i++) {
+    myFullName = myFullName + fullName[i] + ((i + 1) !== fullName.length ? ' ' : '');
+  }
+  return myFullName;
+}
+
+let myName = getMyFullName('Shani', 'Kumar', 'Gupta');
+console.log("My Full Name: ", myName);
 // With Object
 
 let studentData = {
