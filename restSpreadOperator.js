@@ -53,6 +53,9 @@ let { name, Occupation, ...args } = studentData; // Object Destructuring with re
 console.log("Object Destructuring with rest operator : \n", name, Occupation, args);
 
 // Spread Operator - Expand
+let positionName = 'Software Engineer';
+let finalPosition = [...positionName];
+console.log(finalPosition);
 let myNumber = [1, 2, 3, 4, 5, 6, 7];
 
 function myNumberAdd(a, b, c, d, ...args) {
