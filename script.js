@@ -11,3 +11,10 @@ function callMe() {
 }
 callMe();
 console.log("Outer X value: ", x);
+
+let a = 300;
+if (true) {
+  let a = 50;
+  console.log("Inner a value: ", a);
+}
+console.log("Outer a value: ", a);
