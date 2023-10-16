@@ -1,0 +1,4 @@
+1. Scoping (Global vs Blocked vs Function)
+2. Arrow Functions
+3. Optional Channing Operator (?.) -> people?.name?.first
+4. Nullish coalescing Operator (??) -> if value null or undefined
