@@ -2,3 +2,6 @@
 2. Arrow Functions
 3. Optional Channing Operator (?.) -> people?.name?.first
 4. Nullish coalescing Operator (??) -> if value null or undefined
+5. Nullish coalescing assignment operator (??=)
+6. Object Destructuring
+7. async & await
